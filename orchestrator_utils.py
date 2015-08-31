@@ -28,7 +28,7 @@ __author__ = 'avega'
 import json
 import requests
 from requests.exceptions import RequestException
-from iotqautils.iotqaLogger import get_logger
+from common_utils.iot_logger import get_logger
 
 
 class Orchestrator(object):
